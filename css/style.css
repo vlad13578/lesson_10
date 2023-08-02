@@ -226,5 +226,77 @@ h1 {
     max-width: 324px;
 }
 .link:hover {
-	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.impact__bg {
+    background: #29c3be url("../img/impact/bg.jpg") 200px 0 no-repeat;
+}
+.impact__container {
+    max-width: 1040px;
+    padding: 0 10px;
+    margin: 0px auto;
+}
+.impact__maintext {
+    margin: 0px 0px 32px 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 112px 0px 0px 0px;
+}
+.impact__maintext::before {
+    content: "";
+    background: url("../img/impact/Mark.svg") 0 50% no-repeat;
+    padding: 0px 33px 0px 0px;
+}
+.impactsubtext {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    max-width: 411px;
+    margin: 0px 86px 75px 0px;
+}
+.impact__cards {
+	padding: 0px 0px 136px 0px;
+}
+.impact__item {
+    display: inline-block;
+    width: 24%;
+}
+.impact__itemimg {
+    display: inline-block;
+	vertical-align: top;
+	margin: 0px 12px 0px 0px;
+}
+.impact__itemtext {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+	margin: 0px 0px 3px 0px;
+}
+.impact__itemsubtext {
+    color: #5d62b5;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.impact__textblock{
+	display: inline-block;
+}
+
+.impact__botomcontainer{
+	display: inline-block;
+}
+.img{
+	display: inline-block;
+	vertical-align: top;
+	margin: -96px 0px 0px 0px;
+}
+.img img{
+	border-radius: 40px;
 }
