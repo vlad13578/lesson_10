@@ -230,7 +230,7 @@ h1 {
 }
 
 .impact__bg {
-    background: #29c3be url("../img/impact/bg.jpg") 200px 0 no-repeat;
+    background: #29c3be url("../img/impact/bg.jpg") 50% 0 no-repeat;
 }
 .impact__container {
     max-width: 1040px;
